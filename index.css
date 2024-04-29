@@ -1,0 +1,491 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 99px;
+    width: 98vw;
+    background-color: #232F3F;
+    color: white;
+    margin-left: 1%;
+    margin-right: 0%;
+    
+}
+.navbelt{
+    margin-left: 2%;
+    display: flex;
+    gap: 10px;
+}
+.navleft{
+    display: flex;
+    gap: 25px;
+    align-items: flex-end;
+    
+}
+.navright{
+    margin-left: 4%;
+    width: 344px;
+    height: 60px;
+    display: flex;
+    gap: 40px;
+    
+}
+.flag{
+    display: flex;
+}
+.flag img{
+    height: 50px;
+    width: 50px;
+}
+.flag p{
+    margin-top: 10px;
+}
+.navleft img{
+    height: 60px;
+    width: 128.73px;
+}
+.navbelt{
+    display: flex;
+    gap: 15px;
+}
+.loc{
+    width: 194.41px;
+    height: 60px;
+}
+
+.nav2{
+    background-color: #314052;
+    color: white;
+    height: 39px;
+    width: 98vw;
+    list-style: none;
+    gap: 20px;
+    font-size: 14px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.nav2 i{
+    color: white;
+}
+.box{
+    height: 120vh;
+    width: 98vw;
+    background-color: #F8D5AB;
+    background-image: url("Under_1499_Tallhero_3000x1200._CB561212093_.jpg");
+    background-size: 1900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+    margin-left: 1%;
+    margin-right: 0%;
+}
+.container1{
+    height: 40vh;
+    width: 96vw;
+   
+}
+.container2{
+    align-self: last baseline;
+    height: 60vh;
+    width: 96vw;
+    /* background-color: #F8D5AB; */
+    /* opacity: 0.58; */
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 0%;
+    margin-bottom:20% ;
+
+}
+.boxi{
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    position: relative;
+}
+.navfill{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 600px;
+}
+#search{
+height: 45px;
+width :60.5px
+}
+#inp{
+    height: 45px;
+    width: 470.1px;
+}
+.search-icon{
+    height: 45px;
+    width: 50px;
+    background-color: #FEBD69;
+    justify-content: center;
+}
+.search-icon i{
+    height: 100px;
+    width: 100px;
+    color: #232F3F;
+    align-items: center;
+}
+.boxi{
+    align-items: center;
+}
+.boxi h1{
+    margin-top: 5%;
+    margin-left: 5%;
+text-wrap: wrap;
+font-size: 30px;
+font-weight: 550;
+}
+#box4{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    gap: 7px;
+    height: 500px;
+    width: 300px;
+}
+.col1{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+}
+.col2{
+    background-color: white;
+    height: 150px;
+    width: 300px;
+}
+.col1 h1{
+    margin-top: 5%;
+    margin-left: 5%;
+text-wrap: wrap;
+display: flex;
+}
+.col2 h1{
+    margin-top: 5%;
+    margin-left: 5%;
+text-wrap: wrap;
+}
+.gri0{
+    margin-top: 4%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 4%;
+}
+.grit1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grit2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+.grit1 img{
+height: 139px;
+width: 155px;
+}
+.grit2 img{
+    height: 139px;
+    width: 155px;
+}
+.col2 h1{
+    text-wrap: wrap;
+}
+#Sign{
+    
+        text-align: center;
+        background-color: #FEBD69;
+        height: 45px;
+        width: 100px;
+        color: black;
+        font-weight: bold;
+        font-size: 95%;
+        object-fit: cover;
+        border: none;
+        margin-top: 0%;
+        margin-left: 2%;
+        border-radius: 10px;
+    
+}
+#iconin1 {
+    margin-top: 10%;
+    margin-left: 2%;
+    height: 100px;
+}
+#iconin2 {
+    margin-top: 10%;
+    margin-left: 93%;
+}
+#hid{
+    display: none;
+}
+#home{
+    display: none;
+}
+
+@media(max-width:350px){
+    #hid{
+        display: block;
+    }
+    #list{
+        display: none;
+    }
+    #home{
+        display: block;
+    }
+    
+    nav2{
+        background-color: #314052;
+        color: white;
+        height: 39px;
+        width: 98vw;
+        list-style: none;
+        gap: 20px;
+        font-size: 14px;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+   
+    .container1{
+        position: absolute;
+            height: 81vh;
+            width: 69%;
+            margin-top: 20%;
+           
+       
+    }
+    .container-2{
+        align-self: last baseline;
+    height: 256vh;
+    width: 397%;    
+    position: absolute;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+    margin-top: 120%;
+    
+}
+
+    #search{
+        height: 69px;
+        width: 8%;
+        font-size: 28px;
+}
+
+#inp {
+    height: 70px;
+    width: 85%;
+    font-size: 34px;
+}
+
+.search-icon{
+    height: 70px;
+    width: 8%;
+    background-color: #FEBD69;
+    justify-content: center;
+}
+.search-icon i{
+    height: 100px;
+    width: 100px;
+    color: #232F3F;
+    align-items: center;
+}
+
+#Sign{
+    
+    text-align: center;
+    background-color: #FEBD69;
+    height: 45px;
+    width: 350px;
+    color: black;
+    font-weight: bold;
+    font-size: 95%;
+    object-fit: cover;
+    border: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    
+}  
+.navbelti{
+    background-color: #131921;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px; */
+    height: 229px;
+    width: 407%;
+}
+.navbar{
+    height: 99px;
+    width: 98vw;
+    background-color: #232F3F;
+    color: white;
+    margin-left: 1%;
+    margin-right: 0%;
+    
+}
+.navfill {
+    display: flex;
+    align-items: center;
+    height: 29px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+    .navleft-hid{
+        justify-content: space-between;
+        width: 367vw;
+        height: 100px;
+        margin-bottom: 7px;
+        
+    }
+     .navleft-hid img{
+        height:128px;
+    width: 208.73px;
+     }
+   .navright-hid{
+    width: 367vw;
+        height: 50px;
+    list-style: none;
+    /* margin-bottom: 34%; */
+    margin-top: 3%;
+    color: white;
+    display: flex;
+    gap: 90px;
+    font-size: 34px;
+    font-weight: bold;
+    
+   }
+   .navbeltin-right{
+    font-size: 40px;
+    align-items: center;
+    font-weight: bold;
+   }
+   .loc-hid{
+    background-color: #2e3e52;
+    color: white;
+   display: flex;
+   align-items: center;
+   font-size: 30px;
+    
+    height: 56px;
+   }
+   .box{
+    height: 120vh;
+    width: 397%;
+    background-color: #F8D5AB;
+    background-image: url("CML-GW_HERO_pc_2x._CB561612246_.jpg");
+    background-size: 1900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 59%;
+}
+.next1 {
+    height: 480vh;
+    width: 397%;
+    background-color: white;
+    position: absolute;
+    margin-top: 140%;
+}
+.next1 .homeb1 {
+    height: 229vh;
+    width: 100%;
+    position: absolute;
+    background: url(image/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+.next1 .homeb1 .box {
+    position: absolute;
+    width: 400%;
+    height: 95vh;
+    background: url(image/back.jpg);
+    background-color: aqua;
+    animation-name: box-am;
+    animation-duration: 160s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 1, 0.165, 1);
+    display: flex;
+}
+.next1 .homeb1 .box #b1,
+#b2,
+#b3,
+#b4
+ {
+    width: 329%;
+    height: 182vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.gri0{
+    margin-top: 4%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 4%;
+}
+.grit1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.grit2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.grit1 img{
+height: 300px;
+width: 400px;
+}
+.grit2 img{
+    height: 300px;
+    width: 400px;
+}
+
+@keyframes box-am {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    75% {
+        left: -200%;
+    }
+
+    100% {
+        left: -300%;
+    }
+}
+
+.next1 .homeb1 .box {
+    margin-top: 260px;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    position: absolute;
+    display: flex;
+}
+   
+}

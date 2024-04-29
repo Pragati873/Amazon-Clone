@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.next1 {
+    height: 480vh;
+    width: 100%;
+    background-color: #E3E6E6;
+    position: absolute;
+}
+.next1 .homeb1 {
+    height: 95vh;
+    width: 100%;
+    position: absolute;
+    background: url(image/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.next1 .homeb1 .box {
+    position: absolute;
+    width: 400%;
+    height: 95vh;
+    background: url(image/back.jpg);
+    background-color: aqua;
+    animation-name: box-am;
+    animation-duration: 180s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 1, 0.165, 1);
+    display: flex;
+}
+.next1 .homeb1 .box .b1,
+.b2,
+.b3,
+.b4
+ {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.next1 .homeb1 .box .b1 img {
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.next1 .homeb1 .box .b2 img {
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.next1 .homeb1 .box .b3 img {
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.next1 .homeb1 .box .b4 img {
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes box-am {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    75% {
+        left: -200%;
+    }
+
+    100% {
+        left: -300%;
+    }
+}
+
+.next1 .homeb1 .box {
+    margin-top: 260px;
+    height: 71vh;
+    width: 394%;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    position: absolute;
+    display: flex;
+}
+    </style>
+</head>
+<body>
+    <div id="home" class="next1">
+        <div class="homeb1">
+            <div class="box">
+                <div class="b1">
+                    <img src="D87165616_IN_WLA_BAU_MSO_REFRESH-desktop-version_PC_QuadCard_186X116_1X1._SY116_CB602731451_.jpg" alt="">
+                </div>
+                <div class="b2">
+                    <img src="D87165616_IN_WLA_BAU_MSO_REFRESH-desktop-version_PC_QuadCard_186X116_2X2._SY116_CB602731451_.jpg"">
+                </div>
+                <div class="b3">
+                    <img src="D87165616_IN_WLA_BAU_MSO_REFRESH-desktop-version_PC_QuadCard_186X116_3X3._SY116_CB602731451_.jpg" alt="">
+                </div>
+                <div class="b4">
+                    <img src="D87165616_IN_WLA_BAU_MSO_REFRESH-desktop-version_PC_QuadCard_186X116_4X4._SY116_CB602731451_.jpg" alt="">
+                </div>
+            </div>
+</body>
+</html>
